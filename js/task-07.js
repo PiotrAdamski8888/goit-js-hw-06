@@ -1,6 +1,6 @@
 const scrollbar = document.querySelector("#font-size-control");
 const content = document.querySelector("#text");
-
+content.style.fontSize = scrollbar.value + "px";
 const contentSize = () => {
   content.style.fontSize = scrollbar.value + "px";
 };
