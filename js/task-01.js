@@ -8,6 +8,8 @@ const allCategories = numberOfCategories.forEach((el) => {
   console.log(`Elements: ${el.querySelectorAll("li").length}`);
   
 });
+//test
+
 
 //===========================================================//
 //Właściwość textContent
